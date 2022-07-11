@@ -34,18 +34,20 @@ header img{
     justify-content: space-evenly;
 }
 
-.group{
+.group {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    width: 14rem;
+    width: 10rem;
     height: 95%;
     border: 2px solid black;
 }
-.border{
+
+.border-groups-AD{
     border-radius: 40px 0px;
 }
-.borda{
+
+.border-groups-EH{
     border-radius: 0px 40px;
 }
 
@@ -53,21 +55,24 @@ header img{
     padding: 5px 5px;
     text-align: center;
     color: #910800;
-    border-bottom: 2px solid black;
-    
+    border-bottom: 2px solid black;   
 }
 
-.group p{
-    justify-content: center;
-    text-align: start;
-    padding: 8px 8px;
+.group ul{
+    list-style: none;
     font-weight: bolder;
+    font-size: 14px;
+}
+
+.group li{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 
 .group img {
-    align-items: start;
     width: 2rem;
     height: 1.5rem;
-    padding-right: 20px;
+    padding-right: 4px;
 }
-
